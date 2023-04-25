@@ -17,4 +17,20 @@
 
     <string name="titEstacionamento">Sistema de Estacionamento</string>
     <string name="textEstacionamento">Em cidades inteligentes, os estacionamentos são projetados para serem eficientes e acessíveis. Isso inclui a implementação de sensores de estacionamento inteligentes que fornecem informações em tempo real sobre a disponibilidade de vagas, reduzindo o tempo que os motoristas passam procurando por um lugar para estacionar. Além disso, as cidades inteligentes estão investindo em tecnologias de pagamento móvel e sem contato, tornando a experiência de pagamento por estacionamento mais fácil e conveniente para os usuários. </string>
+
+    <string name="titNormas">Normas e Intervenções</string>
+    <string name="textNormas">Em cidades inteligentes, normas e intervenções no planejamento urbano promovem a sustentabilidade e eficiência. Políticas de uso misto de solo e tecnologias de iluminação pública inteligente são exemplos de medidas adotadas para garantir a qualidade de vida dos cidadãos e promover um futuro mais sustentável.</string>
+
+    <string name="titRegulamentacoes">Regulamentações</string>
+    <string name="textRegulamentacoes">Em cidades inteligentes, as regulamentações são projetadas para garantir a segurança, a acessibilidade e a sustentabilidade. Isso inclui a implementação de leis de trânsito inteligentes, que incentivam o uso de transporte público e veículos elétricos, além de medidas para promover a acessibilidade para pessoas com deficiência e idosos. As regulamentações em cidades inteligentes são importantes para garantir que a mobilidade urbana seja segura e eficiente para todos.</string>
+
+    <string name="titArvore">Planos de Arborização</string>
+    <string name="textArvore">Em cidades inteligentes, os planos de arborização são projetados para promover a sustentabilidade e a qualidade de vida dos cidadãos. Isso inclui a implementação de políticas de preservação de áreas verdes e a adoção de técnicas de plantio e manutenção de árvores adequadas às condições climáticas e geográficas locais. Além disso, as cidades inteligentes estão investindo em tecnologias de monitoramento de áreas verdes e na criação de espaços públicos que promovem a interação da população com a natureza. </string>
+
+    <string name="titSaneamento">Saneamento Vias Públicas</string>
+    <string name="textSaneamento">Em cidades inteligentes, o saneamento das vias públicas é uma prioridade para promover a saúde e a segurança dos cidadãos. Isso inclui a implementação de sistemas inteligentes de coleta de lixo e a limpeza das ruas e calçadas, para evitar o acúmulo de resíduos e a proliferação de doenças. Além disso, as cidades inteligentes estão investindo em tecnologias de tratamento de água e esgoto, para garantir o acesso à água potável e reduzir a poluição ambiental. O saneamento das vias públicas é uma medida essencial para garantir a qualidade de vida dos cidadãos e promover a sustentabilidade urbana.</string>
+
+    <string name="titEducacao">Educação</string>
+    <string name="textEducacao">Em cidades inteligentes, a educação é uma prioridade para promover o desenvolvimento humano e social. Isso inclui a implementação de políticas públicas que incentivam a educação de qualidade e o acesso à tecnologia para estudantes e professores. Além disso, as cidades inteligentes estão investindo em tecnologias educacionais avançadas, como plataformas de ensino à distância e salas de aula virtuais, para ampliar o acesso ao conhecimento e melhorar a qualidade da educação. </string>
+
 </resources>

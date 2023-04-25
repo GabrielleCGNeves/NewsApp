@@ -34,7 +34,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/hollywoodone"
-                android:text="Planejamento Urbano"
+                android:text="Meio Ambiente"
                 android:textColor="@color/green"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -46,46 +46,47 @@
 
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idNormas"
+                    android:id="@+id/idReciclagem"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:backgroundTint="@color/light_purple"
-                    android:onClick="expand5"
+                    android:backgroundTint="@color/green"
+                    android:onClick="expand10"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
-                        android:id="@+id/idLayNor"
+                        android:id="@+id/idLayRec"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:padding="8dp">
 
                         <ImageView
-                            android:id="@+id/idImgNor"
-                            android:layout_width="304dp"
+                            android:id="@+id/idImgRec"
+                            android:layout_width="220dp"
                             android:layout_height="191dp"
-                            android:background="@drawable/plan_normas" />
+                            android:layout_gravity="center"
+                            android:background="@drawable/amb_rec" />
 
                         <TextView
-                            android:id="@+id/idTitNor"
+                            android:id="@+id/idTitRec"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:text="@string/titNormas"
-                            android:textColor="@color/white"
+                            android:text="@string/titReciclagem"
+                            android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
 
-                            android:id="@+id/idTextNor"
+                            android:id="@+id/idTextRec"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/textNormas"
-                            android:textColor="@color/white"
+                            android:text="@string/textReciclagem"
+                            android:textColor="@color/black"
                             android:textSize="12sp"
                             android:visibility="gone" />
 
@@ -95,48 +96,48 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idRegulamentacoes"
+                    android:id="@+id/idLixo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/idNormas"
+                    android:layout_below="@id/idReciclagem"
                     android:layout_margin="8dp"
-                    android:backgroundTint="@color/light_purple"
-                    android:onClick="expand6"
+                    android:backgroundTint="@color/green"
+                    android:onClick="expand11"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
-                        android:id="@+id/idLayReg"
+                        android:id="@+id/idLayLixo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:padding="8dp">
 
                         <ImageView
-                            android:id="@+id/idImgReg"
+                            android:id="@+id/idImgLixo"
                             android:layout_width="250dp"
                             android:layout_height="191dp"
                             android:layout_gravity="center"
-                            android:background="@drawable/plan_reg" />
+                            android:background="@drawable/amb_lixo" />
 
                         <TextView
-                            android:id="@+id/idTitReg"
+                            android:id="@+id/idTitLixo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:text="@string/titRegulamentacoes"
-                            android:textColor="@color/white"
+                            android:text="@string/titLixo"
+                            android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
 
-                            android:id="@+id/idTextReg"
+                            android:id="@+id/idTextLixo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/textRegulamentacoes"
-                            android:textColor="@color/white"
+                            android:text="@string/textLixo"
+                            android:textColor="@color/black"
                             android:textSize="12sp"
                             android:visibility="gone" />
 
@@ -146,47 +147,48 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idArvore"
+                    android:id="@+id/idRecursos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/idRegulamentacoes"
+                    android:layout_below="@id/idLixo"
                     android:layout_margin="8dp"
-                    android:backgroundTint="@color/light_purple"
-                    android:onClick="expand7"
+                    android:backgroundTint="@color/green"
+                    android:onClick="expand12"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
-                        android:id="@+id/idLayArv"
+                        android:id="@+id/idLayRecu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:padding="8dp">
 
                         <ImageView
-                            android:id="@+id/idImgArv"
-                            android:layout_width="304dp"
+                            android:id="@+id/idImgRecu"
+                            android:layout_width="250dp"
                             android:layout_height="191dp"
-                            android:background="@drawable/plan_arv" />
+                            android:layout_gravity="center"
+                            android:background="@drawable/amb_recu" />
 
                         <TextView
-                            android:id="@+id/idTitArv"
+                            android:id="@+id/idTitRecu"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:text="@string/titArvore"
-                            android:textColor="@color/white"
+                            android:text="@string/titRecursos"
+                            android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
 
-                            android:id="@+id/idTextArv"
+                            android:id="@+id/idTextRecu"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/textArvore"
-                            android:textColor="@color/white"
+                            android:text="@string/textRecursos"
+                            android:textColor="@color/black"
                             android:textSize="12sp"
                             android:visibility="gone" />
 
@@ -196,47 +198,48 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idSaneamento"
+                    android:id="@+id/idEcossistema"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/idArvore"
+                    android:layout_below="@id/idRecursos"
                     android:layout_margin="8dp"
-                    android:backgroundTint="@color/light_purple"
-                    android:onClick="expand8"
+                    android:backgroundTint="@color/green"
+                    android:onClick="expand13"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
-                        android:id="@+id/idLaySan"
+                        android:id="@+id/idLayEco"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:padding="8dp">
 
                         <ImageView
-                            android:id="@+id/idImgSan"
-                            android:layout_width="304dp"
+                            android:id="@+id/idImgEco"
+                            android:layout_width="250dp"
                             android:layout_height="191dp"
-                            android:background="@drawable/plan_san" />
+                            android:layout_gravity="center"
+                            android:background="@drawable/amb_eco" />
 
                         <TextView
-                            android:id="@+id/idTitSan"
+                            android:id="@+id/idTitEco"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:text="@string/titSaneamento"
-                            android:textColor="@color/white"
+                            android:text="@string/titEcossistema"
+                            android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
 
-                            android:id="@+id/idTextSan"
+                            android:id="@+id/idTextEco"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/textSaneamento"
-                            android:textColor="@color/white"
+                            android:text="@string/textEcossistema"
+                            android:textColor="@color/black"
                             android:textSize="12sp"
                             android:visibility="gone" />
 
@@ -246,47 +249,48 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/idEducacao"
+                    android:id="@+id/idEnergia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/idSaneamento"
+                    android:layout_below="@id/idEcossistema"
                     android:layout_margin="8dp"
-                    android:backgroundTint="@color/light_purple"
-                    android:onClick="expand9"
+                    android:backgroundTint="@color/green"
+                    android:onClick="expand14"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
-                        android:id="@+id/idLayEdu"
+                        android:id="@+id/idLayEne"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:padding="8dp">
 
                         <ImageView
-                            android:id="@+id/idImgEdu"
-                            android:layout_width="304dp"
+                            android:id="@+id/idImgEne"
+                            android:layout_width="250dp"
                             android:layout_height="191dp"
-                            android:background="@drawable/plan_edu" />
+                            android:layout_gravity="center"
+                            android:background="@drawable/amb_ene" />
 
                         <TextView
-                            android:id="@+id/idTitEdu"
+                            android:id="@+id/idTitEne"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:text="@string/titEducacao"
-                            android:textColor="@color/white"
+                            android:text="@string/titEnergia"
+                            android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <TextView
 
-                            android:id="@+id/idTextEdu"
+                            android:id="@+id/idTextEne"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/textEducacao"
-                            android:textColor="@color/white"
+                            android:text="@string/textEnergia"
+                            android:textColor="@color/black"
                             android:textSize="12sp"
                             android:visibility="gone" />
 

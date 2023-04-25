@@ -8,4 +8,13 @@
 
     <string name="titReciclagem">Reciclagem</string>
     <string name="textReciclagem">Uma cidade inteligente não só busca soluções inovadoras para seus problemas, mas também se preocupa com o meio ambiente. A reciclagem é uma prática essencial nesse sentido, e pode ser incentivada de diversas formas, como campanhas educativas, coleta seletiva eficiente e a instalação de pontos de coleta em locais estratégicos. A conscientização da população sobre a importância da reciclagem é fundamental para garantir uma cidade sustentável e inteligente, que preserva os recursos naturais para as futuras gerações.</string>
+
+    <string name="titMoto">Faixas para Motocicletas</string>
+    <string name="textMoto">As faixas para motocicletas em cidades inteligentes são projetadas para proporcionar uma experiência de viagem segura e eficiente para os motociclistas. Essas faixas geralmente são segregadas das faixas de carros e têm sinalização exclusiva para orientar os motociclistas. Além disso, algumas cidades inteligentes estão experimentando a implementação de faixas exclusivas para motocicletas nas ruas, permitindo que elas passem pelo tráfego parado, reduzindo o tempo de viagem e aumentando a eficiência.</string>
+
+    <string name="titPub">Transporte Público</string>
+    <string name="textPub">O transporte público em cidades inteligentes é projetado para ser eficiente, acessível e sustentável. As opções de transporte público incluem ônibus, metrôs, trens e até mesmo sistemas de compartilhamento de bicicletas e scooters elétricos. Além disso, as cidades inteligentes estão utilizando tecnologias de ponta, como sistemas de pagamento sem contato e informações em tempo real sobre o transporte público, para tornar a experiência de viagem mais fácil e agradável para os usuários. </string>
+
+    <string name="titEstacionamento">Sistema de Estacionamento</string>
+    <string name="textEstacionamento">Em cidades inteligentes, os estacionamentos são projetados para serem eficientes e acessíveis. Isso inclui a implementação de sensores de estacionamento inteligentes que fornecem informações em tempo real sobre a disponibilidade de vagas, reduzindo o tempo que os motoristas passam procurando por um lugar para estacionar. Além disso, as cidades inteligentes estão investindo em tecnologias de pagamento móvel e sem contato, tornando a experiência de pagamento por estacionamento mais fácil e conveniente para os usuários. </string>
 </resources>

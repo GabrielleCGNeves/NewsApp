@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NotNews</string>
+    <string name="titVeiculo">Carros Autônomos</string>
+    <string name="textVeiculo">Os veículos autônomos são fundamentais para o desenvolvimento de cidades inteligentes, pois promovem mobilidade sustentável, segurança e otimização dos recursos urbanos. Integrados à infraestrutura urbana, esses veículos contribuem para um trânsito mais eficiente, reduzem a poluição e incentivam o compartilhamento de carros. O investimento em pesquisa e desenvolvimento dessas tecnologias é essencial para um futuro urbano mais inteligente e sustentável.</string>
+
+    <string name="titFarol">Semaforo Inteligente</string>
+    <string name="textFarol">Em uma cidade inteligente, os semáforos são uma ferramenta importante para garantir a segurança no trânsito e melhorar a mobilidade urbana. Com o uso de tecnologia avançada, os semáforos podem ser programados para sincronizar o fluxo de veículos, pedestres e ciclistas, reduzindo o tempo de espera nos cruzamentos e evitando congestionamentos. Além disso, sensores podem ser instalados para detectar a presença de veículos e pedestres, permitindo que os semáforos ajustem automaticamente os tempos de sinalização.</string>
+
+    <string name="titReciclagem">Reciclagem</string>
+    <string name="textReciclagem">Uma cidade inteligente não só busca soluções inovadoras para seus problemas, mas também se preocupa com o meio ambiente. A reciclagem é uma prática essencial nesse sentido, e pode ser incentivada de diversas formas, como campanhas educativas, coleta seletiva eficiente e a instalação de pontos de coleta em locais estratégicos. A conscientização da população sobre a importância da reciclagem é fundamental para garantir uma cidade sustentável e inteligente, que preserva os recursos naturais para as futuras gerações.</string>
+</resources>
